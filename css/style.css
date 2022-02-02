@@ -8,6 +8,8 @@
     box-sizing: border-box;
 }
 
+/* Barra de navegacion */
+
 .navbar-light .navbar-nav .nav-link{
     color: black;
     font-weight: bold;
@@ -26,9 +28,23 @@
     border-left: rgba(65, 65, 65, 0.667) 2px dashed;
 }
 
-.card {
-    margin: 0 auto;
+/* Fin de barra de navegacion */
+
+/*  Index  */
+
+.texto {
+    margin: 15px 0px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
 } 
+
+.container img {
+    width: 100%;
+    height: 300px;
+}
+
+/* Fin Index */
 
 .carousel-control-next-icon {
     background-color: transparent;
@@ -51,4 +67,23 @@
     background-color: #25D366;
     padding: 15px;
     border-radius: 50%;
+}
+
+
+
+@media only screen and (max-width : 750px) {
+    .navbar-brand {
+        margin-left: 5rem;
+        margin-right: 0;
+    }
+    
+    .card-body {
+        overflow: auto;
+    }
+
+    .container img {
+        width: 100%;
+        height: 150px;
+    }
+
 }
