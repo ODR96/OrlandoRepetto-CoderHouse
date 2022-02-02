@@ -30,6 +30,29 @@
 
 /* Fin de barra de navegacion */
 
+.carousel-control-next-icon {
+    background-color: transparent;
+}
+
+.carousel-control-prev-icon {
+    background-color: transparent;
+}
+
+.fa-whatsapp {
+    font-size: 60px;
+    color: white;
+}
+
+.fixed {
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+    z-index: 1;
+    background-color: #25D366;
+    padding: 15px;
+    border-radius: 50%;
+}
+
 /*  Index  */
 
 .texto {
@@ -57,6 +80,18 @@
 
 /* Estilos */
 
+.card-group>.card+.card {
+    border-left: 2px solid black;
+}
+
+.card {
+    margin: 0 15px;
+    border: 2px solid black;
+}
+
+.imgEstilos {
+    border-bottom-right-radius: 0.25rem;
+}
 .row>* {
     overflow: hidden;
 }
@@ -73,36 +108,12 @@
 
 /* Fin Estilos */
 
-.carousel-control-next-icon {
-    background-color: transparent;
-}
-
-.carousel-control-prev-icon {
-    background-color: transparent;
-}
-
-.fa-whatsapp {
-    font-size: 60px;
-    color: white;
-}
-
-.fixed {
-    position: fixed;
-    right: 50px;
-    bottom: 20px;
-    z-index: 1;
-    background-color: #25D366;
-    padding: 15px;
-    border-radius: 50%;
-}
-
-
+/* Responsive */
 
 @media only screen and (max-width : 750px) {
     .navbar-brand {
         margin: 0 auto;
     }
-
 
     .imgIndex {
         width: 100%;
