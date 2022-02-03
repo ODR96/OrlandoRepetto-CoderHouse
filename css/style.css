@@ -148,7 +148,7 @@ html, body {
     width: 400px;
 }
 
-.formulario input:last-child {
+.formulario input:nth-child(9) {
     height: 200px;
 }
 
@@ -157,6 +157,7 @@ html, body {
     border-radius: .25rem;
     font-size: 20px;
     box-shadow: 5px 5px 5px #C7B198;
+
 }
 
 /* Fin Contacto */
@@ -258,7 +259,7 @@ html, body {
         width: 250px;
     }
     
-    .formulario input:last-child {
+    .formulario input:nth-child(9) {
         height: 150px;
     }
 
@@ -291,10 +292,15 @@ html, body {
 
 @media only screen and (max-width : 375px) {
     .fixed {
-        right: 80px;
+        right: 60px;
         bottom: 10px;
         background-color: transparent;
     }
+
+    .div_contacto {
+        overflow: visible;
+    }
+
     .div_mapa {
         display: none;
     }
