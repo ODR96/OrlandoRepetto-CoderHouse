@@ -8,6 +8,14 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: calc(100% - 8rem);
+}
+
 /* Barra de navegacion */
 
 .navbar-light .navbar-nav .nav-link{
@@ -144,6 +152,13 @@
     height: 200px;
 }
 
+.btn-form {
+    padding: 5px;
+    border-radius: .25rem;
+    font-size: 20px;
+    box-shadow: 5px 5px 5px #C7B198;
+}
+
 /* Fin Contacto */
 
 /* Pagina preguntas frecuentes */
@@ -171,6 +186,7 @@
 .footer {
     border-top: 2px #C7B198 solid;
     background: var(--footer-color);
+    height: 8rem;
 }
 
 .div__footer {
@@ -275,7 +291,7 @@
 
 @media only screen and (max-width : 375px) {
     .fixed {
-        right: 60px;
+        right: 80px;
         bottom: 10px;
         background-color: transparent;
     }
