@@ -45,8 +45,8 @@
 
 .fixed {
     position: fixed;
-    right: 50px;
-    bottom: 20px;
+    right: 200px;
+    bottom: 10px;
     z-index: 1;
     background-color: #25D366;
     padding: 15px;
@@ -56,8 +56,8 @@
 /*  Index  */
 
 .texto {
-    margin: 15px 0px;
-    padding: 5px;
+    margin: 15px 0px 0px;
+    padding: 15px;
     display: flex;
     justify-content: center;
 } 
@@ -74,7 +74,11 @@
 
 .contenidoNosotros {
     width: 700px;
-    height: 300px;
+    height: 350px;
+}
+
+.divNosotros__p {
+    margin: 20px 0px;
 }
 
 /* Fin Nosotros */
@@ -162,6 +166,62 @@
 
 /* Fin pagina Preguntas Frecuentes */
 
+/* Footer */
+
+.footer {
+    border-top: 2px #C7B198 solid;
+    background: var(--footer-color);
+}
+
+.div__footer {
+    background: var(--footer-color);    
+}
+
+.div_contacto {
+    background: var(--footer-color);
+}
+
+.div_mapa {
+    margin: 10px 0px;
+    background: var(--footer-color);
+}
+
+.div_redes {
+    margin-bottom: 22px;
+    background: var(--footer-color);
+}
+
+.footer__div--h4 {
+    background-color: var(--footer-color);
+    margin: 5px;
+}
+
+.footer__div--p {
+    background-color: var(--footer-color);
+    margin: 5px;
+} 
+
+.fa-instagram {
+    background: var(--footer-color);
+    font-size: 60px;
+    color: #3f729b  ;
+}
+
+.fa-facebook {
+    background: var(--footer-color);
+    font-size: 60px;
+    color: #4267B2 ;
+}
+
+.fa-twitter {
+    background: var(--footer-color);
+    font-size: 60px;
+    color: #1DA1F2;
+}
+
+
+
+/* Fin footer */
 /* Responsive */
 
 @media only screen and (max-width : 750px) {
@@ -189,3 +249,40 @@
     }
 
 }
+
+@media only screen and (max-width : 1024px) {
+    .fa-whatsapp {
+        font-size: 60px;
+        color: #25D366;
+    }
+    
+    .fixed {
+        right: 0px;
+        bottom: 70px;
+        background-color: transparent;
+    }
+}
+
+@media only screen and (max-width : 425px) {
+    .fixed {
+        right: 0px;
+        bottom: 70px;
+        background-color: transparent;
+    }
+
+    .div_mapa {
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 375px) {
+    .fixed {
+        right: 60px;
+        bottom: 10px;
+        background-color: transparent;
+    }
+    .div_mapa {
+        display: none;
+    }
+}
+
